@@ -1,12 +1,45 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 .jumbotron {
   padding-top: 6rem;
+  background-color: #a3d2ca;
+}
+
+.navbar-custom {
+  background-color: #5f939a;
+}
+
+#projek {
+  background-color: #ffc2b4;
+}
+
+#skill {
   background-color: #e2edff;
 }
 
-#projects {
-  background-color: #e2edff;
+.tombol-kirim {
+  color: #5f939a;
+}
+
+.footer-custom {
+  background-color: #6e7582;
 }
 
 section {
   padding-top: 5rem;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px #5f939a;
+  border-radius: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #6e7582;
+  border-radius: 0px;
+  -webkit-box-shadow: inset 0 0 6px #6e7582;
 }
