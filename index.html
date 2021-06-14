@@ -27,7 +27,7 @@
   </head>
   <body id="beranda">
     <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top navbar-custom" data-aos="fade-down">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top navbar-custom">
       <div class="container">
         <a class="navbar-brand" href="#">Ahmad Ammar Bahtiar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +61,7 @@
 
     <!-- Jumbotron-->
     <section class="jumbotron text-center">
-      <img src="img/Capture.jpg" alt="Ammar Bahtiar" width="200" class="rounded-circle img-thumbnail" data-aos="flip-right" />
+      <img src="img/Capture.jpg" alt="Ammar Bahtiar" width="200" class="rounded-circle img-thumbnail"/>
       <h1 class="title">Ahmad Ammar Bahtiar</h1>
       <p class="lead">Fresh Graduate | Junior Web Developer</p>
       <a class="btn btn-dark" data-aos="zoom-in" href="https://github.com/ammarbahtiarasli">Github <i class="bi bi-github"></i></a>
@@ -281,7 +281,14 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
     AOS.init();
-  </script>
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script>
+      gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
+      gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0});
+      gsap.from('.jumbotron h1', { duration: 1, x: -100, opacity: 0});
+    </script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
