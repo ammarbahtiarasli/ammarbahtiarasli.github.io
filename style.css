@@ -63,16 +63,18 @@ section {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 600px) {
+  .skill {
+    display: inline-block;
+  }
+}
+
 .skill {
   color: #000;
   margin: 10px;
   background-color: #d1e0d5;
   padding: 10px;
   border-radius: 6px;
-  width: 150px;
   font-weight: 600;
-}
-
-.skill-list {
-  display: flex;
+  width: auto;
 }
