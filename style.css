@@ -49,8 +49,7 @@ section {
 }
 
 .card {
-  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
-    0.3s box-shadow,
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow,
     0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   cursor: pointer;
 }
@@ -62,4 +61,18 @@ section {
 
 #tentang {
   overflow: hidden;
+}
+
+.skill {
+  color: #000;
+  margin: 10px;
+  background-color: #d1e0d5;
+  padding: 10px;
+  border-radius: 6px;
+  width: 150px;
+  font-weight: 600;
+}
+
+.skill-list {
+  display: flex;
 }
