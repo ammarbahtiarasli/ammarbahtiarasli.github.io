@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
 * {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,54 +12,96 @@ body {
   bottom: 0;
 }
 
-.jumbotron {
-  padding-top: 6rem;
-  background-color: #a3d2ca;
+.navbar-custom {
+  background-color: #1e5f74;
+  opacity: 0.9;
 }
 
-.navbar-custom {
-  background-color: #5f939a;
+.navbar-brand span {
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+
+.jumbotron {
+  padding-top: 9rem;
+  background: url(img/blob-haikei.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  padding-bottom: 20rem;
+}
+
+#tentang {
+  background: url(img/blob-haikei-1.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  padding-bottom: 30rem;
 }
 
 #projek {
-  background-color: #ffc2b4;
+  background: url(img/blob-haikei-2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 30rem;
+}
+
+#sertifikat {
+  background: url(img/blob-haikei-3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 35rem;
 }
 
 #skill {
-  background-color: #e2edff;
+  background: url(img/blob-haikei-4.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  padding-bottom: 30rem;
 }
 
-.tombol-kirim {
-  color: #5f939a;
+#kontak {
+  background: url(img/blob-haikei-5.svg);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: cover;
+  padding-bottom: 30rem;
 }
 
 .footer-custom {
-  background-color: #6e7582;
+  background-color: #1e5f74;
 }
 
 section {
   padding-top: 5rem;
+  background-color: #1d2d50;
 }
 
 ::-webkit-scrollbar {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px #5f939a;
+  -webkit-box-shadow: inset 0 0 6px transparent;
   border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #6e7582;
+  background-color: #1e5f74;
   border-radius: 0px;
-  -webkit-box-shadow: inset 0 0 6px #6e7582;
+  -webkit-box-shadow: inset 0 0 6px #ffff;
 }
 
 .title {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-size: 3em;
+  font-weight: 600;
 }
 
 .card {
-  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow,
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
     0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
   cursor: pointer;
 }
@@ -68,15 +113,4 @@ section {
 
 #tentang {
   overflow: hidden;
-}
-
-.skill {
-  display: inline-block;
-  color: #000;
-  margin: 10px;
-  background-color: #d1e0d5;
-  padding: 10px;
-  border-radius: 6px;
-  font-weight: 600;
-  width: auto;
 }
