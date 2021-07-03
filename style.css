@@ -44,7 +44,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 30rem;
+  padding-bottom: 40rem;
+  overflow: hidden;
 }
 
 #sertifikat {
