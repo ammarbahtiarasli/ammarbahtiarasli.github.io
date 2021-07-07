@@ -71,6 +71,7 @@ body {
   background-position: bottom center;
   background-size: cover;
   padding-bottom: 30rem;
+  overflow: hidden;
 }
 
 #kontak {
@@ -79,6 +80,7 @@ body {
   background-position: bottom center;
   background-size: cover;
   padding-bottom: 30rem;
+  overflow: hidden;
 }
 
 .footer-custom {
@@ -94,13 +96,13 @@ section {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px transparent;
+  -webkit-box-shadow: inset 0 0 6px #fff;
   border-radius: 0px;
 }
 ::-webkit-scrollbar-thumb {
   background-color: #1e5f74;
-  border-radius: 0px;
-  -webkit-box-shadow: inset 0 0 6px #ffff;
+  border-radius: 12px;
+  -webkit-box-shadow: inset 0 0 6px #1e5f74;
 }
 
 .title {
