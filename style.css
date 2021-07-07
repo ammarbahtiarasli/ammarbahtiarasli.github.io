@@ -37,6 +37,7 @@ body {
   background-position: bottom center;
   background-size: cover;
   padding-bottom: 30rem;
+  overflow: hidden;
 }
 
 #projek {
@@ -61,6 +62,7 @@ body {
   background-position: center;
   background-size: cover;
   padding-bottom: 35rem;
+  overflow: hidden;
 }
 
 #skill {
