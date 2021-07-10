@@ -36,7 +36,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  padding-bottom: 35rem;
+  padding-bottom: 30rem;
   overflow: hidden;
 }
 
@@ -88,7 +88,6 @@ body {
 }
 
 section {
-  padding-top: 5rem;
   background-color: #1d2d50;
 }
 
