@@ -28,7 +28,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  padding-bottom: 20rem;
+  padding-bottom: 25rem;
 }
 
 #tentang {
@@ -36,7 +36,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  padding-bottom: 30rem;
+  padding-bottom: 35rem;
   overflow: hidden;
 }
 
@@ -45,7 +45,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 45rem;
+  padding-bottom: 55rem;
   overflow: hidden;
 }
 
@@ -61,7 +61,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding-bottom: 35rem;
+  padding-bottom: 40rem;
   overflow: hidden;
 }
 
@@ -70,7 +70,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  padding-bottom: 30rem;
+  padding-bottom: 35rem;
   overflow: hidden;
 }
 
@@ -125,4 +125,44 @@ section {
 
 #tentang {
   overflow: hidden;
+}
+
+h2 {
+  position: relative;
+  z-index: 2;
+}
+
+.dot-style {
+  position: relative;
+  z-index: 1;
+  top: 120px;
+  right: 50px;
+}
+
+.dot-style2 {
+  position: relative;
+  z-index: 1;
+  top: 120px;
+  right: 60px;
+}
+
+.dot-style3 {
+  position: relative;
+  z-index: 1;
+  top: 120px;
+  right: 50px;
+}
+
+.dot-style4 {
+  position: relative;
+  z-index: 1;
+  top: 120px;
+  right: 110px;
+}
+
+.dot-style5 {
+  position: relative;
+  z-index: 1;
+  top: 120px;
+  right: 40px;
 }
