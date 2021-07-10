@@ -341,7 +341,7 @@
               <h4><a class="text-white" href="mailto:ammarbahtiarasli@gmail.com"><i class="bi bi-envelope"></i> ammarbahtiarasli@gmail.com</a></h4>
             </center>
             <hr>
-            <form name="contact" method="POST" data-netlify="true">
+            <form action="POST" data-netlify="true">
             <div class="mb-3">
               <label for="name" class="form-label text-white">Name</label>
               <input type="text" class="form-control" name="name" placeholder="Your name here">
@@ -352,8 +352,9 @@
             </div>
             <div class="mb-3">
               <label for="message" class="form-label text-white">Message</label>
-              <textarea class="form-control" name="Message" rows="3"></textarea>
+              <textarea class="form-control" name="message" rows="3"></textarea>
             </div>
+            <div data-netlify-recaptcha="true"></div>
             <button type="submit" class="btn btn-success"><i class="bi bi-envelope"></i> Send</button>
           </form>
         </div>
