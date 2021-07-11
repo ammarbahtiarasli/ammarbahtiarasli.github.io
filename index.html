@@ -337,9 +337,6 @@
       <div class="row justify-content-center">
         <div class="col-md-8" data-aos="fade">
           <form action="POST" data-netlify="true">
-            <center>
-              <h4><a class="text-white" href="mailto:ammarbahtiarasli@gmail.com"><i class="bi bi-envelope"></i> ammarbahtiarasli@gmail.com</a></h4>
-            </center>
             <hr>
             <div class="mb-3">
               <label for="name" class="form-label text-white">Name</label>
@@ -347,15 +344,20 @@
             </div>
             <div class="mb-3">
               <label for="email" class="form-label text-white">Email</label>
-              <input type="email" class="form-control" name="email" placeholder="youremail@example.com">
+              <input type="email" class="form-control" name="email" placeholder="email@example.com">
             </div>
             <div class="mb-3">
               <label for="message" class="form-label text-white">Message</label>
               <textarea class="form-control" name="message" rows="3"></textarea>
             </div>
             <div data-netlify-recaptcha="true"></div>
-            <button type="submit" class="btn btn-success mt-2"><i class="bi bi-envelope"></i> Send</button>
+            <button type="submit" class="btn btn-success mt-2">Send <i class="bi bi-envelope"></i></button>
           </form>
+          <hr>
+          <center>
+            <h4 class="text-white">Or Email</h4>
+            <h4><a class="text-white" href="mailto:ammarbahtiarasli@gmail.com"><i class="bi bi-envelope"></i> ammarbahtiarasli@gmail.com</a></h4>
+          </center>
         </div>
       </div>
     </div>
@@ -380,7 +382,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
   <script>
     gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce' });
-    gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0 });
+    gsap.from('.jumbotron svg', { duration: 1, rotateY: 360, opacity: 0 });
     gsap.from('.jumbotron h1', { duration: 1, x: -100, opacity: 0 });
   </script>
 </body>
