@@ -66,43 +66,21 @@ body {
   overflow: hidden;
 }
 
-#skill {
+#kontak {
   background: url(img/blob-haikei-4.svg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
-  padding-bottom: 35rem;
-  overflow: hidden;
-}
-
-#kontak {
-  background: url(img/blob-haikei-5.svg);
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-  padding-bottom: 30rem;
+  padding-bottom: 20rem;
   overflow: hidden;
 }
 
 .footer-custom {
-  background-color: #1e5f74;
+  background-color: #133b5c;
 }
 
 section {
   background-color: #1d2d50;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px #fff;
-  border-radius: 0px;
-}
-::-webkit-scrollbar-thumb {
-  background-color: #1e5f74;
-  border-radius: 12px;
-  -webkit-box-shadow: inset 0 0 6px #1e5f74;
 }
 
 .title {
