@@ -24,7 +24,7 @@ body {
 
 .jumbotron {
   padding-top: 5rem;
-  background: url(img/blob-haikei.svg);
+  background: url(../img/blob-haikei.svg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -33,7 +33,7 @@ body {
 }
 
 #tentang {
-  background: url(img/blob-haikei-1.svg);
+  background: url(../img/blob-haikei-1.svg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -42,7 +42,7 @@ body {
 }
 
 #projek {
-  background: url(img/blob-haikei-2.svg);
+  background: url(../img/blob-haikei-2.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -58,7 +58,7 @@ body {
 }
 
 #sertifikat {
-  background: url(img/blob-haikei-3.svg);
+  background: url(../img/blob-haikei-3.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -67,7 +67,7 @@ body {
 }
 
 #kontak {
-  background: url(img/blob-haikei-4.svg);
+  background: url(../img/blob-haikei-4.svg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -77,10 +77,6 @@ body {
 
 .footer-custom {
   background-color: #133b5c;
-}
-
-section {
-  background-color: #1d2d50;
 }
 
 .title {
@@ -120,14 +116,14 @@ h2 {
   position: relative;
   z-index: 1;
   top: 120px;
-  right: 60px;
+  right: 40px;
 }
 
 .dot-style3 {
   position: relative;
   z-index: 1;
   top: 120px;
-  right: 50px;
+  right: 74px;
 }
 
 .dot-style4 {
@@ -142,4 +138,20 @@ h2 {
   z-index: 1;
   top: 120px;
   right: 40px;
+}
+
+.footer-custom ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-custom li {
+  font-size: 2em;
+  margin: 0 10px;
+}
+
+.footer-custom li a {
+  color: white;
 }
