@@ -13,7 +13,8 @@ body {
 }
 
 .navbar-custom {
-  background-color: hsla(195, 59%, 29%, 0.8);
+  /* background-color: hsla(195, 59%, 29%, 0.8); */
+  background-color: hsla(221, 39%, 11%, 0.8);
   backdrop-filter: blur(10px);
 }
 
@@ -23,7 +24,7 @@ body {
 }
 
 .jumbotron {
-  padding-top: 5rem;
+  padding-top: 4rem;
   background: url(../img/blob-haikei.svg);
   background-repeat: no-repeat;
   background-position: bottom center;
