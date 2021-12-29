@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  color-scheme: dark;
+}
+
 body {
   left: 0;
   top: 0;
@@ -13,7 +17,6 @@ body {
 }
 
 .navbar-custom {
-  /* background-color: hsla(195, 59%, 29%, 0.8); */
   background-color: hsla(221, 39%, 11%, 0.8);
   backdrop-filter: blur(10px);
 }
