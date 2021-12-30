@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  color-scheme: dark;
-}
-
 body {
   left: 0;
   top: 0;
