@@ -140,6 +140,7 @@ h2 {
   right: 40px;
 }
 
+/* Footer */
 .footer-custom ul {
   list-style-type: none;
   padding: 0;
@@ -155,7 +156,9 @@ h2 {
 .footer-custom li a {
   color: white;
 }
+/* end footer */
 
+/* scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
 }
